@@ -33,13 +33,13 @@ TF(Tranform Library) for coordinate Transformations
 Step 4: Robot Simulation and control:
 Simulating a robot in gazebo
 Controlling a robotic arm using Moveit
-Using ROS navigation stack(SLAM, Path Planning)
+Using ROS navigation stack(SLAM(Simultaneous Localization and Mapping), Path Planning)
 
 
 Step 5: Sensor Integration:
 Working with LIDAR, IMU, & Camera
 Using OpenCV with ROS for image processing
-Point cloud processing with PCL
+Point cloud processing with PCL(Rapidly-exploring Random Tree)
 
 Step 6: Writing Custom ROS packages:
 Creating custom messages and services
@@ -50,7 +50,7 @@ Managing launch files efficiently
 
 Step 7: ROS Autonomous Systems
 Autonomous navigation with SLAM
-implementing path planning algorithms(A*, Dijkstra, RRT)
+implementing path planning algorithms(A*(A-Star (Pathfinding Algorithm)), Dijkstra(Named after Edsger Dijkstra, it refers to Dijkstra's Algorithm (Shortest Path Algorithm)), RRT(Rapidly-exploring Random Tree))
 Object detection and grasping with deep learning 
 
 step 8: ROS2 & Advanced Concepts
