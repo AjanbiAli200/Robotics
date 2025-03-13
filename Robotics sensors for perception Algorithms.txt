@@ -1,0 +1,43 @@
+Robotics sensors for perception Algorithms
+
+1. They can be anymore from the object that we are going to detect for an autonomous vechicle to collision 
+2. it could be a plan which uses sensors looking down at the ground as its moving that information so it later can turn into a 3-D model
+3. it could be a Robotic ARM that trying to detect something that it can know how to interact with it.
+
+There are mainly 6 types of different sensors:
+1. Lidar
+2. radar
+3. Camera
+4. IR
+5. UltraSonic
+6. IMU
+
+they usually detects different wavalengths on the electromagnetic spectrum
+
+1.
+Lidar shoots out thousands of points into the world and because the speed of the light is constant we'll get back those points it'll know how far those points have traveled and you'r able to get the information on a scene in the world.
+Lidar is really good for getting size and shape of an object but it has trouble differentiating between one object and another object it also won't get any returns out of glass or out of water. So we need tobe careful there.
+
+2.
+this is where camera comes in. everyone's heard about neural networks, deep learning, machine learing and so this is where cameras really shine where you're able use them on an image to say where is the dog where is person, how many people in the scene and you can really get more descriptive information on what's in the scene
+
+3.
+Now we go into radar which is particularly good in incremental weather where as lidar is more precise most of the time but radar does better in inclement weather like raining or with fog .
+It will get you information on the velocity of the things or it maynot give you a return on every single thing so the radar that i've worked with you get maybe one return for five feet in the world it does give a lot of really noisy information on something like trees or metaldumpsters.
+that's where you can potentially fuse it with camera and detect where is there a tree you filtered that data out so you can get a better returns but by using doppler effect you're able to get good velocity information from Rader
+
+4. 
+IR or infrared gives really good information when it comes heat so if you're trying to detect where where are the human bodies in an environment or where are animals or where in my house and I am losing efficiency because all of the heat is escaping the winter or if a plane or drone is going overhead and it's trying to find you know where's fire IR would do particularly do well there.
+You can actually fuse camera and IR to be able to create a depth sensor and that'll give you both camera information and depth information in a scene which is fantastic.
+
+5.
+We UltraSonic which is no longer the electromagnetic spectrum we don't have the light waves it's now sound waves and we get into sound wave the first thought is underwater robotics and that's because Soundwaves actually travels farther than light waves.
+So underwater robotics use a ultrasonics. with ultrasonics you will send the sound waves and you'll get the returns based on the first that it hits so you only get one return for each ultrasonics that you may have a multiple ultrasonics to be able provide the coverage but they're actually particularly good for if you have an autonomous vechicle that has several differnet sensors that have long range perception sensors.
+Sometimes you'll have like a gap in  coverage so radars that I worked with you know it was like half a meter gap so if you have blind spot in there you may want to put in ultrasonics so that you don't have a blind spot anymore and you don't have loss any coverage 
+
+6.
+IMU inertial measurement unit is used for checking the position and orientation. you can do that with a common filter or  a particle filter and if you're getting all of your sensor information in its really useless if you don't know where the sensor information is relative to the robot and ties in calibration.
+
+you can use the benefis of each of the different sensors to come up with best outcome through your algorithms.
+
+

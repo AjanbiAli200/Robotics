@@ -1,0 +1,88 @@
+ROS - Robot Operating System
+
+1. Prerequisites
+Before diving into ROS, make sure you have:
+
+Basic Linux skills (Ubuntu command line, file handling, permissions, shell scripting)
+Python and C++ programming (Python for scripting, C++ for performance-critical applications)
+Basic knowledge of robotics (Kinematics, control systems, and sensor integration)
+
+
+
+2. Getting Started with ROS
+Step 1: Install ROS
+Install ROS noetic (for Ubuntu 20.04)
+or Install ROS 2 Humble(for Ubuntu 22.04)
+
+
+Step 2: Understanding ROS Basics
+Basic ROS commands like roscore, rosrun, roslaunch, Nodes, Topics, Messages, Services, Actions, and Parameters
+For ROS workspace we need to setup catkin_make for ROS 1 or colcon for ROS 2
+To Visualize and debug we need to use rqt_graph and rostopic
+sample project: writing a simple Publisher-Subscriber in python and C++
+
+Step 3: Working with ROS tools:
+RViz for Visualization
+Gazebo for robot simulation
+rosbag for recording and replying data
+TF(Tranform Library) for coordinate Transformations
+
+
+3. Intermediate Level
+
+Step 4: Robot Simulation and control:
+Simulating a robot in gazebo
+Controlling a robotic arm using Moveit
+Using ROS navigation stack(SLAM, Path Planning)
+
+
+Step 5: Sensor Integration:
+Working with LIDAR, IMU, & Camera
+Using OpenCV with ROS for image processing
+Point cloud processing with PCL
+
+Step 6: Writing Custom ROS packages:
+Creating custom messages and services
+Using dynamic_reconfiguare
+Managing launch files efficiently
+
+4. Advanced Level
+
+Step 7: ROS Autonomous Systems
+Autonomous navigation with SLAM
+implementing path planning algorithms(A*, Dijkstra, RRT)
+Object detection and grasping with deep learning 
+
+step 8: ROS2 & Advanced Concepts
+Difference between ROS1 & ROS2
+DDS(Data Distribution Services) and real-time communication
+writing ROS2 nodes with rclcpp and rclpy
+using ROS2 with Docker and Kubernetes
+
+step 9: Multi-Robot Systems 
+Swarm robotics with ROS
+Multi-Robot coordination using ROS Multi-Master
+
+step 10: Hardware Integration
+Using ROS with Arduino, Raspberry Pi, and Jetson Nano
+Controlling robotic arm, drones, and self-driving cars
+
+
+5. Hands-on projects
+Build a ROS-based mobile robot
+Implement Autonomous Navigation
+Create a ROS-Powered robotic ARM
+Work on real-world robotic competitions( like TurtleBot Challenges)
+
+
+6. Resources
+Official ROS Tutorials: wiki.ros.org
+ROS2 Documentation: docs.ros.org
+
+Books:
+Programming Robots with ROS by Quigley, Gerkey, Smart
+Mastering ROS for Robotics Programming by Lentin Joseph
+
+Online Courses:
+Udemy, Coursera (ROS Basics, ROS for Beginners)
+The Construct (ROS Simulation-based le
